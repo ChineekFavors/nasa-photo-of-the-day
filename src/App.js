@@ -3,6 +3,8 @@ import "./App.css";
 
 import Heading from "./components/heading/Heading";
 import Image from "./components/image/Image";
+import Paragraph from "./components/paragraph/Paragraph";
+
 
 function App() {
 	
@@ -14,6 +16,7 @@ function App() {
       </h1>
       <Heading />
       <Image />
+      <Paragraph />
     </div>
   );
 }
