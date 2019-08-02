@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ParagraphCard from "./ParagraphCard";
+import './paragraph.css';
 
 function Paragraph() {
 	const [para, setPara] = useState();

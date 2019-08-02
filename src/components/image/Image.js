@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ImageCard from "./ImageCard";
 
+
 function Image() {
 	const [image, setImage] = useState();
 

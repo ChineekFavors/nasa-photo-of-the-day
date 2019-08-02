@@ -2,6 +2,10 @@ import React from "react";
 
 
 
+
+
+
+
 function HeadingCard(props) {
 
 	return (

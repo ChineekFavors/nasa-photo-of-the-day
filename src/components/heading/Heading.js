@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import HeadingCard from "./HeadingCard";
+import './Heading.css';
 
 function Heading() {
 	const [title, setTitle] = useState();
